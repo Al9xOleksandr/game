@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 100;
+var winningScore = 105;
 
 // add collectable items to the game
 function addItems() {
@@ -95,7 +95,7 @@ window.onload = function () {
     game.load.image('platform2', 'platform_2.png');
     
     //Load spritesheets
-    game.load.spritesheet('player', 'mikethefrog.png', 48, 62);
+    game.load.spritesheet('player', 'chalkers.png', 48, 62);
     game.load.spritesheet('coin', 'coin.png', 36, 44);
     game.load.spritesheet('badge', 'badge.png', 42, 54);
     game.load.spritesheet('poison', 'poison.png', 32, 32);
@@ -160,4 +160,3 @@ window.onload = function () {
   }
 
 };
-alert('You Win')
